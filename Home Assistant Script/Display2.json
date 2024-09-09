@@ -1,0 +1,150 @@
+{
+	"elements": [{
+				"type": "Init",
+				"color": "0000"
+				},
+				{
+					"type": "Text",
+					"X": 85,
+					"Y": 9,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "Obergeschoss"
+				},
+				{
+					"type": "Time",
+					"X": 0,
+					"Y": 9,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff"
+				},				
+				{
+					"type": "Line",
+					"X1": 95,
+					"Y1": 12,
+					"X2": 95,
+					"Y2": 80,
+					"color": "FFFF"	
+				},				
+				{
+					"type": "Line",
+					"X1": 4,
+					"Y1": 12,
+					"X2": 4,
+					"Y2": 80,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Line",
+					"X1": 159,
+					"Y1": 12,
+					"X2": 159,
+					"Y2": 80,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Text",
+					"X": 6,
+					"Y": 27,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "Bad"
+				},				
+				{
+					"type": "Line",
+					"X1": 4,
+					"Y1": 11,
+					"X2": 160,
+					"Y2": 11,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Text",
+					"X": 110,
+					"Y": 27,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8083/fhem?XHR=1&cmd={ReadingsVal('BadTemperatur','temperature','0')}}"
+				},			
+				{
+					"type": "Line",
+					"X1": 5,
+					"Y1": 29,
+					"X2": 160,
+					"Y2": 29,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Text",
+					"X": 6,
+					"Y": 45,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "SchalfZ"
+				},
+				{
+					"type": "Text",
+					"X": 110,
+					"Y": 45,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8083/fhem?XHR=1&cmd={ReadingsVal('SzTemperatur','temperature','0')}}"
+				},
+				{
+					"type": "Text",
+					"X": 6,
+					"Y": 62,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "Arbeit"
+				},
+				{
+					"type": "Text",
+					"X": 110,
+					"Y": 62,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8083/fhem?XHR=1&cmd={ReadingsVal('AzTemperatur','temperature','0')}}"
+				},		
+				{
+					"type": "Line",
+					"X1": 5,
+					"Y1": 47,
+					"X2": 160,
+					"Y2": 47,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Text",
+					"X": 6,
+					"Y": 78,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "Dach"
+				},
+				{
+					"type": "Text",
+					"X": 110,
+					"Y": 78,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8083/fhem?XHR=1&cmd={ReadingsVal('MQTT2_zigbee_TemperaturDach','temperature','0')}}"
+				},				
+				{
+					"type": "Line",
+					"X1": 5,
+					"Y1": 63,
+					"X2": 160,
+					"Y2": 63,
+					"color": "FFFF"	
+				},				
+				{
+					"type": "Line",
+					"X1": 5,
+					"Y1": 79,
+					"X2": 160,
+					"Y2": 79,
+					"color": "FFFF"	
+				}
+		]
+}

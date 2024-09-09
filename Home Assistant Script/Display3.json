@@ -1,0 +1,59 @@
+{
+	"elements": [
+				{
+				"type": "Init",
+				"color": "0000"
+				},
+				{
+					"type": "Text",
+					"X": 100,
+					"Y": 15,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "Heute"
+				},
+				{
+					"type": "Text",
+					"X": 0,
+					"Y": 30,
+					"font": "u8g2_font_6x13_mr",
+					"color": "FFFF",
+					"value": "Sonnenaufgang"
+				},
+				{
+					"type": "Bild",
+					"value": "sunny-klein.bmp",
+					"X": 100,
+					"Y": 20
+				},
+				{
+					"type": "Text",
+					"X": 0,
+					"Y": 42,
+					"font": "u8g2_font_6x13_mr",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.sonnenaufgang}"
+				},
+				{
+					"type": "Text",
+					"X": 0,
+					"Y": 60,
+					"font": "u8g2_font_6x13_mr",
+					"color": "FFFF",
+					"value": "Sonnenuntergang"
+				},				{
+					"type": "Bild",
+					"value": "moon-klein.bmp",
+					"X": 100,
+					"Y": 50
+				},
+				{
+					"type": "Text",
+					"X": 0,
+					"Y": 72,
+					"font": "u8g2_font_6x13_mr",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.sonnenuntergang}"
+				}
+		]
+}

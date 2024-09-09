@@ -1,0 +1,46 @@
+{
+	"elements": [
+				{
+				"type": "Init",
+				"color": "0000"
+				},
+				{
+					"type": "Bild",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.vorhersage_morgen}.bmp",
+					"X": 0,
+					"Y": 0
+				},
+				{
+					"type": "Text",
+					"X": 100,
+					"Y": 15,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "Morgen"
+				},
+				{
+					"type": "Text",
+					"X": 105,
+					"Y": 30,
+					"font": "u8g2_font_6x13_mr",
+					"color": "FFFF",
+					"value": "T: {http://192.168.1.20:8123/api/states/sensor.vorhersage_morgen_temperatur}C"
+				},
+				{
+					"type": "Text",
+					"X": 105,
+					"Y": 40,
+					"font": "u8g2_font_6x13_mr",
+					"color": "FFFF",
+					"value": "F: {http://192.168.1.20:8123/api/states/sensor.vorhersage_morgen_feuchte}%"
+				},
+				{
+					"type": "Text",
+					"X": 105,
+					"Y": 50,
+					"font": "u8g2_font_6x13_mr",
+					"color": "FFFF",
+					"value": "W: {http://192.168.1.20:8123/api/states/sensor.vorhersage_morgen_wind}"
+				}
+		]
+}

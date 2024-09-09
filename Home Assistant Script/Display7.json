@@ -1,0 +1,51 @@
+{
+	"elements": [
+				{
+				"type": "Init",
+				"color": "0000"
+				},
+				{
+					"type": "Text",
+					"X": 20,
+					"Y": 15,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "Ladestaende"
+				},
+				{
+					"type": "Bild",
+					"value": "auto2.bmp",
+					"X": 90,
+					"Y": 20
+				},
+				{
+					"type": "Text",
+					"X": 90,
+					"Y": 65,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.cooper_se_verbleibende_batterie_in_prozent}%"
+				},
+				{
+					"type": "Text",
+					"X": 90,
+					"Y": 78,
+					"font": "u8g2_font_6x13_mr",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.cooper_se_restreichweite_elektrisch}km"
+				},				{
+					"type": "Bild",
+					"value": "batterie1.bmp",
+					"X": 10,
+					"Y": 20
+				},				
+				{
+					"type": "Text",
+					"X": 10,
+					"Y": 65,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.plenticore_battery_soc}%"
+				}
+		]
+}

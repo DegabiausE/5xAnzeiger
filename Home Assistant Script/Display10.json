@@ -1,0 +1,183 @@
+{
+	"elements": [
+				{
+				"type": "Init",
+				"color": "0000"
+				},
+				{
+					"type": "Bild",
+					"value": "euro3.bmp",
+					"X": 0,
+					"Y": 0
+				},			
+				{
+					"type": "Line",
+					"X1": 0,
+					"Y1": 31,
+					"X2": 160,
+					"Y2": 31,
+					"color": "FFFF"	
+				},			
+				{
+					"type": "Line",
+					"X1": 0,
+					"Y1": 50,
+					"X2": 160,
+					"Y2": 50,
+					"color": "FFFF"	
+				},			
+				{
+					"type": "Line",
+					"X1": 0,
+					"Y1": 68,
+					"X2": 160,
+					"Y2": 68,
+					"color": "FFFF"	
+				},			
+				{
+					"type": "Line",
+					"X1": 45,
+					"Y1": 15,
+					"X2": 45,
+					"Y2": 80,
+					"color": "FFFF"	
+				},			
+				{
+					"type": "Line",
+					"X1": 85,
+					"Y1": 15,
+					"X2": 85,
+					"Y2": 80,
+					"color": "FFFF"	
+				},			
+				{
+					"type": "Line",
+					"X1": 125,
+					"Y1": 15,
+					"X2": 125,
+					"Y2": 80,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Text",
+					"X": 48,
+					"Y": 27,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "1 er"
+				},
+				{
+					"type": "Text",
+					"X": 88,
+					"Y": 27,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "Mini"
+				},
+				{
+					"type": "Text",
+					"X": 128,
+					"Y": 27,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "Solar"
+				},
+				{
+					"type": "Text",
+					"X": 2,
+					"Y": 45,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "Tag"
+				},
+				{
+					"type": "Text",
+					"X": 48,
+					"Y": 45,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.kosten_bmw_1er_diesel_tag}"
+				},
+				{
+					"type": "Text",
+					"X": 88,
+					"Y": 45,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.kosten_mini_elektro_tag}"
+				},
+				{
+					"type": "Text",
+					"X": 128,
+					"Y": 45,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.veranderung_kosten_gewinn_solaranlage_tag}"
+				},
+				{
+					"type": "Text",
+					"X": 2,
+					"Y": 64,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "Monat"
+				},
+				{
+					"type": "Text",
+					"X": 48,
+					"Y": 64,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.kosten_bmw_1er_diesel_monat}"
+				},
+				{
+					"type": "Text",
+					"X": 88,
+					"Y": 64,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.kosten_mini_elektro_monat}"
+				},
+				{
+					"type": "Text",
+					"X": 128,
+					"Y": 64,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.veranderung_kosten_gewinn_solaranlage_monat}"
+				},
+				{
+					"type": "Text",
+					"X": 2,
+					"Y": 80,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "Jahr"
+				},
+				{
+					"type": "Text",
+					"X": 48,
+					"Y": 80,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.kosten_bmw_1er_diesel_jahr}"
+				},
+				{
+					"type": "Text",
+					"X": 88,
+					"Y": 80,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.kosten_mini_elektro_jahr}"
+				},
+				{
+					"type": "Text",
+					"X": 128,
+					"Y": 80,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.veranderung_kosten_gewinn_solaranlage_jahr}"
+				}
+
+		]
+}

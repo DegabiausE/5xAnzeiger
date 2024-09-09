@@ -1,0 +1,46 @@
+{
+	"elements": [
+				{
+				"type": "Init",
+				"color": "0000"
+				},
+				{
+					"type": "Bild",
+					"value": "mini2.bmp",
+					"X": 0,
+					"Y": 0
+				},
+				{
+					"type": "Text",
+					"X": 80,
+					"Y": 15,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "Gefahren"
+				},
+				{
+					"type": "Text",
+					"X": 85,
+					"Y": 33,
+					"font": "u8g2_font_6x13_mr",
+					"color": "FFFF",
+					"value": "J: {http://192.168.1.20:8123/api/states/sensor.kilometerleistung_mini_cooper_jahr}"
+				},
+				{
+					"type": "Text",
+					"X": 85,
+					"Y": 48,
+					"font": "u8g2_font_6x13_mr",
+					"color": "FFFF",
+					"value": "M: {http://192.168.1.20:8123/api/states/sensor.kilometerleistung_mini_cooper_monat}"
+				},
+				{
+					"type": "Text",
+					"X": 85,
+					"Y": 63,
+					"font": "u8g2_font_6x13_mr",
+					"color": "FFFF",
+					"value": "T: {http://192.168.1.20:8123/api/states/sensor.kilometerleistung_mini_cooper_tag}"
+				}
+		]
+}

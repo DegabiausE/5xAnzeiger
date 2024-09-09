@@ -1,0 +1,150 @@
+{
+	"elements": [{
+				"type": "Init",
+				"color": "0000"
+				},
+				{
+					"type": "Time",
+					"X": 0,
+					"Y": 9,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff"
+				},
+				{
+					"type": "Text",
+					"X": 85,
+					"Y": 9,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "Erdgeschoss"
+				},			
+				{
+					"type": "Line",
+					"X1": 95,
+					"Y1": 12,
+					"X2": 95,
+					"Y2": 80,
+					"color": "FFFF"	
+				},				
+				{
+					"type": "Line",
+					"X1": 4,
+					"Y1": 12,
+					"X2": 4,
+					"Y2": 80,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Line",
+					"X1": 159,
+					"Y1": 12,
+					"X2": 159,
+					"Y2": 80,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Text",
+					"X": 6,
+					"Y": 27,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "Terrasse"
+				},				
+				{
+					"type": "Line",
+					"X1": 4,
+					"Y1": 11,
+					"X2": 160,
+					"Y2": 11,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Text",
+					"X": 110,
+					"Y": 27,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8083/fhem?XHR=1&cmd={ReadingsVal('NetamoTemperatur','temperature','0')}}"
+				},			
+				{
+					"type": "Line",
+					"X1": 5,
+					"Y1": 29,
+					"X2": 160,
+					"Y2": 29,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Text",
+					"X": 6,
+					"Y": 45,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "WohnZi"
+				},
+				{
+					"type": "Text",
+					"X": 110,
+					"Y": 45,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8083/fhem?XHR=1&cmd={ReadingsVal('netatmo_D70_ee_50_3e_e0_06','temperature','0')}}"
+				},
+				{
+					"type": "Text",
+					"X": 6,
+					"Y": 62,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "Kueche"
+				},
+				{
+					"type": "Text",
+					"X": 110,
+					"Y": 62,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8083/fhem?XHR=1&cmd={ReadingsVal('KuecheTemperatur','temperature','0')}}"
+				},		
+				{
+					"type": "Line",
+					"X1": 5,
+					"Y1": 47,
+					"X2": 160,
+					"Y2": 47,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Text",
+					"X": 6,
+					"Y": 78,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "Flur"
+				},
+				{
+					"type": "Text",
+					"X": 110,
+					"Y": 78,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8083/fhem?XHR=1&cmd={ReadingsVal('FlurTemperatur','temperature','0')}}"
+				},				
+				{
+					"type": "Line",
+					"X1": 5,
+					"Y1": 63,
+					"X2": 160,
+					"Y2": 63,
+					"color": "FFFF"	
+				},				
+				{
+					"type": "Line",
+					"X1": 5,
+					"Y1": 79,
+					"X2": 160,
+					"Y2": 79,
+					"color": "FFFF"	
+				}
+		]
+}

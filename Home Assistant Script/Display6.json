@@ -1,0 +1,146 @@
+{
+	"elements": [{
+				"type": "Init",
+				"color": "0000"
+				},
+				{
+				"type": "Debug",
+				"value": "Diplay 6"				},
+				{
+					"type": "Text",
+					"X": 55,
+					"Y": 9,
+					"font": "u8g2_font_6x13_mr",
+					"color": "ffff",
+					"value": "Aktuelle Leistung"
+				},			
+				{
+					"type": "Line",
+					"X1": 95,
+					"Y1": 12,
+					"X2": 95,
+					"Y2": 80,
+					"color": "FFFF"	
+				},				
+				{
+					"type": "Line",
+					"X1": 4,
+					"Y1": 12,
+					"X2": 4,
+					"Y2": 80,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Line",
+					"X1": 159,
+					"Y1": 12,
+					"X2": 159,
+					"Y2": 80,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Text",
+					"X": 6,
+					"Y": 27,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "Haus"
+				},				
+				{
+					"type": "Line",
+					"X1": 4,
+					"Y1": 11,
+					"X2": 160,
+					"Y2": 11,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Text",
+					"X": 110,
+					"Y": 27,
+					"font": "u8g2_font_6x13_mr",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.plenticore_grid_power} W"
+				},			
+				{
+					"type": "Line",
+					"X1": 5,
+					"Y1": 29,
+					"X2": 160,
+					"Y2": 29,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Text",
+					"X": 6,
+					"Y": 45,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "Solar"
+				},
+				{
+					"type": "Text",
+					"X": 110,
+					"Y": 45,
+					"font": "u8g2_font_6x13_mr",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.plenticore_sum_power_of_all_pv_dc_inputs} W"
+				},
+				{
+					"type": "Text",
+					"X": 6,
+					"Y": 62,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "Speicher"
+				},
+				{
+					"type": "Text",
+					"X": 110,
+					"Y": 62,
+					"font": "u8g2_font_6x13_mr",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.plenticore_battery_power} W"
+				},		
+				{
+					"type": "Line",
+					"X1": 5,
+					"Y1": 47,
+					"X2": 160,
+					"Y2": 47,
+					"color": "FFFF"	
+				},
+				{
+					"type": "Text",
+					"X": 6,
+					"Y": 78,
+					"font": "u8g2_font_10x20_mf",
+					"color": "FFFF",
+					"value": "Auto"
+				},
+				{
+					"type": "Text",
+					"X": 110,
+					"Y": 78,
+					"font": "u8g2_font_6x13_mr",
+					"color": "FFFF",
+					"value": "{http://192.168.1.20:8123/api/states/sensor.enector_ladeleistung} W"
+				},				
+				{
+					"type": "Line",
+					"X1": 5,
+					"Y1": 63,
+					"X2": 160,
+					"Y2": 63,
+					"color": "FFFF"	
+				},				
+				{
+					"type": "Line",
+					"X1": 5,
+					"Y1": 79,
+					"X2": 160,
+					"Y2": 79,
+					"color": "FFFF"	
+				}
+		]
+}
